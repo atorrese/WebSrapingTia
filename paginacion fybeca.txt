@@ -1,0 +1,9 @@
+https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?s=0&pp=25&cat=357&ot=0
+https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?s=25&pp=25&cat=357&ot=0
+https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?s=50&pp=25&cat=357&ot=0
+https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?s=75&pp=25&cat=357&ot=0
+https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?s=100&pp=25&cat=357&ot=0
+https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?s=125&pp=25&cat=357&ot=0
+https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?s=150&pp=25&cat=357&ot=0
+https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?s=175&pp=25&cat=357&ot=0
+https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?s=200&pp=25&cat=357&ot=0

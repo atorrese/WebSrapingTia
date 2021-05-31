@@ -1,0 +1,1653 @@
+[
+    {
+        "name": "Medicinas",
+        "subcategory": [
+            {
+                "name": "Alivio del dolor",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=202&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Analgésicos y fiebre",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=205&s=0&pp=25"
+                    },
+                    {
+                        "name": "Cólico menstrual",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=206&s=0&pp=25"
+                    },
+                    {
+                        "name": "Linimentos, parches y ungüentos",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=207&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=202&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Gripe",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=204&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Antigripales",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=212&s=0&pp=25"
+                    },
+                    {
+                        "name": "Tos",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=213&s=0&pp=25"
+                    },
+                    {
+                        "name": "Dolor de garganta",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=215&s=0&pp=25"
+                    },
+                    {
+                        "name": "Mentol",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=216&s=0&pp=25"
+                    },
+                    {
+                        "name": "Descongestionantes nasales",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=1105&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=204&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Digestivos",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=211&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Antiácidos",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=217&s=0&pp=25"
+                    },
+                    {
+                        "name": "Antiflatulentos",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=218&s=0&pp=25"
+                    },
+                    {
+                        "name": "Dolor",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=219&s=0&pp=25"
+                    },
+                    {
+                        "name": "Protección del hígado",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=220&s=0&pp=25"
+                    },
+                    {
+                        "name": "Laxantes",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=221&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=211&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Salud cotidiana",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=223&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Calvicie",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=225&s=0&pp=25"
+                    },
+                    {
+                        "name": "Quemaduras y picaduras",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=226&s=0&pp=25"
+                    },
+                    {
+                        "name": "Hongos",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=227&s=0&pp=25"
+                    },
+                    {
+                        "name": "Infecciones vaginales",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=228&s=0&pp=25"
+                    },
+                    {
+                        "name": "Hemorroides",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=229&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=223&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Colageno",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=1095&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=1095&s=0&pp=25"
+                    },
+                    {
+                        "name": "Mk",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=12&q=&s=0&pp=25&b=1673"
+                    },
+                    {
+                        "name": "La santé",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=12&q=&s=0&pp=25&b=1717"
+                    },
+                    {
+                        "name": "Sin marca",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=12&q=&s=0&pp=25&b=1"
+                    },
+                    {
+                        "name": "Genfar",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=12&q=&s=0&pp=25&b=398"
+                    },
+                    {
+                        "name": "Nifa",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=12&q=&s=0&pp=25&b=277"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Salud",
+        "subcategory": [
+            {
+                "name": "Vitaminas",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=238&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Multivitamínicos adultos",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=241&s=0&pp=25"
+                    },
+                    {
+                        "name": "Multivitamínicos niños",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=248&s=0&pp=25"
+                    },
+                    {
+                        "name": "Vitamina c",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=249&s=0&pp=25"
+                    },
+                    {
+                        "name": "Calcio",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=250&s=0&pp=25"
+                    },
+                    {
+                        "name": "Hierro",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=251&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=238&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Dieta y nutrición",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=254&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Suplemento deportivo",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=255&s=0&pp=25"
+                    },
+                    {
+                        "name": "Suplemento alimenticio",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=256&s=0&pp=25"
+                    },
+                    {
+                        "name": "Complemento alimenticio",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=257&s=0&pp=25"
+                    },
+                    {
+                        "name": "Tratamientos adelgazantes",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=258&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=254&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Naturales",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=259&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Aparato urinario",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=260&s=0&pp=25"
+                    },
+                    {
+                        "name": "Vías respiratorias",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=261&s=0&pp=25"
+                    },
+                    {
+                        "name": "Articulaciones y huesos",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=263&s=0&pp=25"
+                    },
+                    {
+                        "name": "Várices",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=264&s=0&pp=25"
+                    },
+                    {
+                        "name": "Energía y vitalidad",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=266&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=259&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Salud sexual",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=272&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Preservativos",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=273&s=0&pp=25"
+                    },
+                    {
+                        "name": "Pruebas en el hogar",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=274&s=0&pp=25"
+                    },
+                    {
+                        "name": "Lubricantes y estimulantes",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=277&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=272&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Incontinencia",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=278&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Cremas",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=279&s=0&pp=25"
+                    },
+                    {
+                        "name": "Incontinencia moderada",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=280&s=0&pp=25"
+                    },
+                    {
+                        "name": "Incontinencia fuerte",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=281&s=0&pp=25"
+                    },
+                    {
+                        "name": "Incontinencia severa",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=1096&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=278&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Climaterio",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=282&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Cuidado íntimo",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=283&s=0&pp=25"
+                    },
+                    {
+                        "name": "Calores",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=284&s=0&pp=25"
+                    },
+                    {
+                        "name": "Toallas femeninas",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=285&s=0&pp=25"
+                    },
+                    {
+                        "name": "Protectores",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=286&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=282&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Diabetes",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=287&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Glucómetros",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=288&s=0&pp=25"
+                    },
+                    {
+                        "name": "Medias",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=289&s=0&pp=25"
+                    },
+                    {
+                        "name": "Cremas",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=290&s=0&pp=25"
+                    },
+                    {
+                        "name": "Suplementos alimenticios",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=291&s=0&pp=25"
+                    },
+                    {
+                        "name": "Cuidado oral",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=292&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=287&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Sumédica",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=293&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Rehabilitación",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=294&s=0&pp=25"
+                    },
+                    {
+                        "name": "Nebulizadores, vaporizadores y humidificadores",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=317&s=0&pp=25"
+                    },
+                    {
+                        "name": "Tensiómetros",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=318&s=0&pp=25"
+                    },
+                    {
+                        "name": "Termómetros",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=319&s=0&pp=25"
+                    },
+                    {
+                        "name": "Cuidado del adulto mayor",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=320&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=293&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Primeros auxilios",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=325&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Adhesivos para heridas",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=326&s=0&pp=25"
+                    },
+                    {
+                        "name": "Productos para curaciones",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=330&s=0&pp=25"
+                    },
+                    {
+                        "name": "Botiquines",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=334&s=0&pp=25"
+                    },
+                    {
+                        "name": "Soluciones antisépticas",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=335&s=0&pp=25"
+                    },
+                    {
+                        "name": "Mascarillas",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=1072&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=325&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Insumos médicos",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=352&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Quirúrgicos",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=353&s=0&pp=25"
+                    },
+                    {
+                        "name": "Laboratorio",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=354&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=352&s=0&pp=25"
+                    },
+                    {
+                        "name": "Sin marca",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=237&q=&s=0&pp=25&b=1"
+                    },
+                    {
+                        "name": "Blunding",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=237&q=&s=0&pp=25&b=1401"
+                    },
+                    {
+                        "name": "Diafoot",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=237&q=&s=0&pp=25&b=3355"
+                    },
+                    {
+                        "name": "S/m",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=237&q=&s=0&pp=25&b=4505"
+                    },
+                    {
+                        "name": "Do it",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=237&q=&s=0&pp=25&b=5532"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Bebés y futura mamá",
+        "subcategory": [
+            {
+                "name": "Bebés",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=356&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Pañales y pañitos",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=357&s=0&pp=25"
+                    },
+                    {
+                        "name": "Fórmulas infantiles",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=365&s=0&pp=25"
+                    },
+                    {
+                        "name": "Alimentos infantiles",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=370&s=0&pp=25"
+                    },
+                    {
+                        "name": "Juguetes estimulación y entretenimiento",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=377&s=0&pp=25"
+                    },
+                    {
+                        "name": "Ropa de bebé",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=387&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=356&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Futura mamá",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=435&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Lactancia",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=436&s=0&pp=25"
+                    },
+                    {
+                        "name": "Cremas antiestrías",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=437&s=0&pp=25"
+                    },
+                    {
+                        "name": "Fajas y accesorios",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=438&s=0&pp=25"
+                    },
+                    {
+                        "name": "Vitaminas",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=439&s=0&pp=25"
+                    },
+                    {
+                        "name": "Medias para várices",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=440&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=435&s=0&pp=25"
+                    },
+                    {
+                        "name": "Fisher-price",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=355&q=&s=0&pp=25&b=1107"
+                    },
+                    {
+                        "name": "Cutie baby",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=355&q=&s=0&pp=25&b=4634"
+                    },
+                    {
+                        "name": "Quiltex",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=355&q=&s=0&pp=25&b=3438"
+                    },
+                    {
+                        "name": "Playskool",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=355&q=&s=0&pp=25&b=1115"
+                    },
+                    {
+                        "name": "Huggies",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=355&q=&s=0&pp=25&b=521"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Belleza",
+        "subcategory": [
+            {
+                "name": "Cabello",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=446&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Shampoo",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=447&s=0&pp=25"
+                    },
+                    {
+                        "name": "Acondicionador",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=457&s=0&pp=25"
+                    },
+                    {
+                        "name": "Tratamiento",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=460&s=0&pp=25"
+                    },
+                    {
+                        "name": "Crema de peinar",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=465&s=0&pp=25"
+                    },
+                    {
+                        "name": "Gel y fijadores",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=469&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=446&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Manicure y pedicure",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=627&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Quitaesmaltes",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=629&s=0&pp=25"
+                    },
+                    {
+                        "name": "Uñas postizas",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=630&s=0&pp=25"
+                    },
+                    {
+                        "name": "Accesorios",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=631&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=627&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Cuidado de la piel",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=489&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Protección solar",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=490&s=0&pp=25"
+                    },
+                    {
+                        "name": "Natural y orgánico",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=497&s=0&pp=25"
+                    },
+                    {
+                        "name": "Cuidado rostro",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=502&s=0&pp=25"
+                    },
+                    {
+                        "name": "Cuidado facial y corporal especializado",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=506&s=0&pp=25"
+                    },
+                    {
+                        "name": "Cuidado corporal y cremas",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=522&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=489&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Maquillaje",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=537&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Ojos",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=538&s=0&pp=25"
+                    },
+                    {
+                        "name": "Esmaltes",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=628&s=0&pp=25"
+                    },
+                    {
+                        "name": "Rostro",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=542&s=0&pp=25"
+                    },
+                    {
+                        "name": "Labios",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=547&s=0&pp=25"
+                    },
+                    {
+                        "name": "Accesorios de maquillaje",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=551&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=537&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Perfumes y colonias",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=558&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Hombre",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=559&s=0&pp=25"
+                    },
+                    {
+                        "name": "Mujer",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=560&s=0&pp=25"
+                    },
+                    {
+                        "name": "Niños y niñas",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=561&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=558&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Lencería",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=562&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Bodys",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=563&s=0&pp=25"
+                    },
+                    {
+                        "name": "Medias",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=564&s=0&pp=25"
+                    },
+                    {
+                        "name": "Ropa interior",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=565&s=0&pp=25"
+                    },
+                    {
+                        "name": "Fajas estéticas",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=566&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=562&s=0&pp=25"
+                    },
+                    {
+                        "name": "Essence",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=445&q=&s=0&pp=25&b=3368"
+                    },
+                    {
+                        "name": "Catrice",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=445&q=&s=0&pp=25&b=10415"
+                    },
+                    {
+                        "name": "Maybelline",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=445&q=&s=0&pp=25&b=185"
+                    },
+                    {
+                        "name": "Samy",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=445&q=&s=0&pp=25&b=3183"
+                    },
+                    {
+                        "name": "Vogue",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=445&q=&s=0&pp=25&b=20"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Cuidado personal",
+        "subcategory": [
+            {
+                "name": "Cuidado oral",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=568&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Niños y niñas",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=569&s=0&pp=25"
+                    },
+                    {
+                        "name": "Adultos",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=574&s=0&pp=25"
+                    },
+                    {
+                        "name": "Especializados",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=579&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=568&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Desodorantes",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=585&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Hombre",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=586&s=0&pp=25"
+                    },
+                    {
+                        "name": "Mujer",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=587&s=0&pp=25"
+                    },
+                    {
+                        "name": "Especializados",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=1030&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=585&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Protección femenina",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=601&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Cuidado íntimo",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=602&s=0&pp=25"
+                    },
+                    {
+                        "name": "Toallas femeninas",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=603&s=0&pp=25"
+                    },
+                    {
+                        "name": "Protectores diarios",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=604&s=0&pp=25"
+                    },
+                    {
+                        "name": "Tampones",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=605&s=0&pp=25"
+                    },
+                    {
+                        "name": "Copas menstruales",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=1241&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=601&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Afeitado",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=610&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Afeitado",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=611&s=0&pp=25"
+                    },
+                    {
+                        "name": "Después del afeitado",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=616&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=610&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Depilación",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=620&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Rasuradora",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=621&s=0&pp=25"
+                    },
+                    {
+                        "name": "Ceras",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=625&s=0&pp=25"
+                    },
+                    {
+                        "name": "Cremas y mousse",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=626&s=0&pp=25"
+                    },
+                    {
+                        "name": "Bandas depilatorias",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=1053&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=620&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Pies saludables",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=632&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Plantillas",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=633&s=0&pp=25"
+                    },
+                    {
+                        "name": "Talcos y desodorantes",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=634&s=0&pp=25"
+                    },
+                    {
+                        "name": "Cremas",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=635&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=632&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Repelentes",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=636&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Niños",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=638&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=636&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Jabones, esponjas y colonias",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=639&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Jabones barra",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=640&s=0&pp=25"
+                    },
+                    {
+                        "name": "Jabones líquidos",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=644&s=0&pp=25"
+                    },
+                    {
+                        "name": "Jabones medicados ",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=647&s=0&pp=25"
+                    },
+                    {
+                        "name": "Esponjas",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=648&s=0&pp=25"
+                    },
+                    {
+                        "name": "Colonias",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=984&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=639&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Papel higiénico",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=649&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Papel higiénico húmedo",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=650&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=649&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Pañuelos faciales",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=651&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=651&s=0&pp=25"
+                    },
+                    {
+                        "name": "Colgate",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=567&q=&s=0&pp=25&b=1112"
+                    },
+                    {
+                        "name": "Nivea",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=567&q=&s=0&pp=25&b=2925"
+                    },
+                    {
+                        "name": "Gillette",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=567&q=&s=0&pp=25&b=43"
+                    },
+                    {
+                        "name": "Oral b",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=567&q=&s=0&pp=25&b=1126"
+                    },
+                    {
+                        "name": "Rexona",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=567&q=&s=0&pp=25&b=205"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Alimentos y bebidas",
+        "subcategory": [
+            {
+                "name": "Alimentos",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=654&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Barras energéticas",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=655&s=0&pp=25"
+                    },
+                    {
+                        "name": "Snacks",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=656&s=0&pp=25"
+                    },
+                    {
+                        "name": "Chicles, caramelos y chupetes",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=666&s=0&pp=25"
+                    },
+                    {
+                        "name": "Chocolates",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=667&s=0&pp=25"
+                    },
+                    {
+                        "name": "Edulcorantes",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=668&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=654&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Bebidas",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=676&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Agua",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=677&s=0&pp=25"
+                    },
+                    {
+                        "name": "Gaseosas",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=683&s=0&pp=25"
+                    },
+                    {
+                        "name": "Energizantes",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=684&s=0&pp=25"
+                    },
+                    {
+                        "name": "Hidratantes",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=685&s=0&pp=25"
+                    },
+                    {
+                        "name": "Jugos",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=686&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=676&s=0&pp=25"
+                    },
+                    {
+                        "name": "Toni",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=653&q=&s=0&pp=25&b=350"
+                    },
+                    {
+                        "name": "Nature´s heart",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=653&q=&s=0&pp=25&b=269"
+                    },
+                    {
+                        "name": "Pinguino",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=653&q=&s=0&pp=25&b=169"
+                    },
+                    {
+                        "name": "Trident",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=653&q=&s=0&pp=25&b=1083"
+                    },
+                    {
+                        "name": "Sin marca",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=653&q=&s=0&pp=25&b=1"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Regalos y decoración",
+        "subcategory": [
+            {
+                "name": "Portaretratos",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=695&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "4x6",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=696&s=0&pp=25"
+                    },
+                    {
+                        "name": "5x7",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=697&s=0&pp=25"
+                    },
+                    {
+                        "name": "8x10",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=698&s=0&pp=25"
+                    },
+                    {
+                        "name": "Varios tamaños",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=699&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=695&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Hogar y decoración",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=701&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Ceniceros",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=702&s=0&pp=25"
+                    },
+                    {
+                        "name": "Cristalería",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=703&s=0&pp=25"
+                    },
+                    {
+                        "name": "Cocina",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=708&s=0&pp=25"
+                    },
+                    {
+                        "name": "Baño",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=722&s=0&pp=25"
+                    },
+                    {
+                        "name": "Adornos",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=725&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=701&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Hombre",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=736&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Billeteras",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=737&s=0&pp=25"
+                    },
+                    {
+                        "name": "Accesorios para bar",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=739&s=0&pp=25"
+                    },
+                    {
+                        "name": "Oficina",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=742&s=0&pp=25"
+                    },
+                    {
+                        "name": "Navajas",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=747&s=0&pp=25"
+                    },
+                    {
+                        "name": "Gafas",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=750&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=736&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Mujer",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=767&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Billeteras y monederos",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=768&s=0&pp=25"
+                    },
+                    {
+                        "name": "Bisutería y joyeros",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=769&s=0&pp=25"
+                    },
+                    {
+                        "name": "Gafas",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=775&s=0&pp=25"
+                    },
+                    {
+                        "name": "Relojes",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=777&s=0&pp=25"
+                    },
+                    {
+                        "name": "Ropa",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=778&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=767&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Niños ",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=789&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Billeteras",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=790&s=0&pp=25"
+                    },
+                    {
+                        "name": "Cuadros infantiles",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=791&s=0&pp=25"
+                    },
+                    {
+                        "name": "Artículos de decoración",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=794&s=0&pp=25"
+                    },
+                    {
+                        "name": "Diarios",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=795&s=0&pp=25"
+                    },
+                    {
+                        "name": "Relojes",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=796&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=789&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Funky fish",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=804&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Gafas",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=805&s=0&pp=25"
+                    },
+                    {
+                        "name": "Bolsos y carteras",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=806&s=0&pp=25"
+                    },
+                    {
+                        "name": "Billeteras y monederos",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=807&s=0&pp=25"
+                    },
+                    {
+                        "name": "Pantuflas",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=808&s=0&pp=25"
+                    },
+                    {
+                        "name": "Accesorios de cabello",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=809&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=804&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Álbumes fotográficos",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=818&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Bebés",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=819&s=0&pp=25"
+                    },
+                    {
+                        "name": "Adultos",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=820&s=0&pp=25"
+                    },
+                    {
+                        "name": "Juveniles",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=821&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=818&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Agendas y directorios",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=822&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=822&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Termos",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=823&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=823&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "San valentín",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=824&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=824&s=0&pp=25"
+                    },
+                    {
+                        "name": "S/m",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=694&q=&s=0&pp=25&b=4505"
+                    },
+                    {
+                        "name": "Sin marca",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=694&q=&s=0&pp=25&b=1"
+                    },
+                    {
+                        "name": "Funky fish",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=694&q=&s=0&pp=25&b=1506"
+                    },
+                    {
+                        "name": "Totto",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=694&q=&s=0&pp=25&b=1501"
+                    },
+                    {
+                        "name": "Santini christmas",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=694&q=&s=0&pp=25&b=5118"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Juegos y juguetes",
+        "subcategory": [
+            {
+                "name": "Peluches",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=847&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Licencias",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=856&s=0&pp=25"
+                    },
+                    {
+                        "name": "Genéricos",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=857&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=847&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Juegos de mesa",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=848&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Familia",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=858&s=0&pp=25"
+                    },
+                    {
+                        "name": "Adultos",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=859&s=0&pp=25"
+                    },
+                    {
+                        "name": "Niños y niñas",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=860&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=848&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Rompecabezas",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=849&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Niños y niñas",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=861&s=0&pp=25"
+                    },
+                    {
+                        "name": "Adultos",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=862&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=849&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Libros, arte y manualidades",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=850&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Joyería",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=863&s=0&pp=25"
+                    },
+                    {
+                        "name": "Pintar y dibujar",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=864&s=0&pp=25"
+                    },
+                    {
+                        "name": "Stickers",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=865&s=0&pp=25"
+                    },
+                    {
+                        "name": "Libros",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=866&s=0&pp=25"
+                    },
+                    {
+                        "name": "Plastilina",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=867&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=850&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Juguetes de niña",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=851&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Muñecas",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=868&s=0&pp=25"
+                    },
+                    {
+                        "name": "Animales de juguete",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=874&s=0&pp=25"
+                    },
+                    {
+                        "name": "Tocador y cocina",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=875&s=0&pp=25"
+                    },
+                    {
+                        "name": "Camping",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=876&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=851&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Juguetes de niño",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=852&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Carros, motos y aviones",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=873&s=0&pp=25"
+                    },
+                    {
+                        "name": "Camping",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=879&s=0&pp=25"
+                    },
+                    {
+                        "name": "Animales de juguete",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=882&s=0&pp=25"
+                    },
+                    {
+                        "name": "Figuras de acción",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=883&s=0&pp=25"
+                    },
+                    {
+                        "name": "Pistolas",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=884&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=852&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Pelotas",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=853&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=853&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Electrónicos",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=854&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=854&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Juguetes tradicionales",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=855&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Canicas",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=885&s=0&pp=25"
+                    },
+                    {
+                        "name": "Burbujas",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=886&s=0&pp=25"
+                    },
+                    {
+                        "name": "Juguetes de agua y playa",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=887&s=0&pp=25"
+                    },
+                    {
+                        "name": "Set de herramientas",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=888&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=855&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Juguetes didácticos",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=999&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Legos",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=1000&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=999&s=0&pp=25"
+                    },
+                    {
+                        "name": "Hasbro",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=846&q=&s=0&pp=25&b=992"
+                    },
+                    {
+                        "name": "Mattel",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=846&q=&s=0&pp=25&b=994"
+                    },
+                    {
+                        "name": "Phk",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=846&q=&s=0&pp=25&b=1553"
+                    },
+                    {
+                        "name": "Sandy lion",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=846&q=&s=0&pp=25&b=4858"
+                    },
+                    {
+                        "name": "Norma",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=846&q=&s=0&pp=25&b=1218"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Cuidado del hogar",
+        "subcategory": [
+            {
+                "name": "Pilas, baterías y linternas",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=890&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Pilas",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=895&s=0&pp=25"
+                    },
+                    {
+                        "name": "Cargadores",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=899&s=0&pp=25"
+                    },
+                    {
+                        "name": "Linternas",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=900&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=890&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Ambientales",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=891&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Para el auto",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=901&s=0&pp=25"
+                    },
+                    {
+                        "name": "Para el hogar",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=902&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=891&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Paraguas",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=892&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=892&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Fosforeras",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=904&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=904&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Pega instantánea",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=905&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=905&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Limpieza del hogar",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=906&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": "Esponjas",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=907&s=0&pp=25"
+                    },
+                    {
+                        "name": "Desinfectantes",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=908&s=0&pp=25"
+                    },
+                    {
+                        "name": "Detergentes",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=1133&s=0&pp=25"
+                    },
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=906&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Insecticida",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=1056&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=1056&s=0&pp=25"
+                    }
+                ]
+            },
+            {
+                "name": "Limpieza zapatos",
+                "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=1091&s=0&pp=25",
+                "subgroup": [
+                    {
+                        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=1091&s=0&pp=25"
+                    },
+                    {
+                        "name": "Glade",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=889&q=&s=0&pp=25&b=4655"
+                    },
+                    {
+                        "name": "S/m",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=889&q=&s=0&pp=25&b=4505"
+                    },
+                    {
+                        "name": "Energizer",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=889&q=&s=0&pp=25&b=1967"
+                    },
+                    {
+                        "name": "St. crawford",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=889&q=&s=0&pp=25&b=1481"
+                    },
+                    {
+                        "name": "Tips",
+                        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=889&q=&s=0&pp=25&b=1450"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Más",
+        "subcategory": []
+    }
+]

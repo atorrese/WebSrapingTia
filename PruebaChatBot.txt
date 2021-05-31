@@ -1,0 +1,132 @@
+{
+  "responseId": "2a72e37b-a0f8-4395-a364-07f2428895f1-9a925d01",
+  "queryResult": {
+    "queryText": "confirmo pedido",
+    "parameters": {},
+    "allRequiredParamsPresent": true,
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            ""
+          ]
+        }
+      }
+    ],
+    "outputContexts": [
+      {
+        "name": "projects/chaterbot-9wsr/agent/sessions/26b14664-3004-338b-a03d-f21285ffe8ff/contexts/setpedido",
+        "lifespanCount": 4,
+        "parameters": {
+          "pedidoInsumo": [
+            {
+              "number": 2,
+              "number.original": "2",
+              "insumo": "Fertilizante",
+              "insumo.original": "Fertilizante"
+            }
+          ],
+          "pedidoInsumo.original": [
+            "2 Fertilizante"
+          ],
+          "nombres-apellidos": {
+            "nombres": {
+              "given-name": "Carlos",
+              "given-name.original": "Carlos",
+              "nombre": {
+                "given-name": "Josue",
+                "given-name.original": "Josue"
+              },
+              "nombre.original": "Josue"
+            },
+            "nombres.original": "Carlos Josue",
+            "apellidos": {
+              "last-name": "Medina",
+              "last-name.original": "Medina",
+              "apellido": {
+                "last-name": "Alvarado",
+                "last-name.original": "Alvarado"
+              },
+              "apellido.original": "Alvarado"
+            },
+            "apellidos.original": "Medina Alvarado"
+          },
+          "nombres-apellidos.original": "Carlos Josue Medina Alvarado",
+          "cedula": {
+            "dni-person": "0924209513",
+            "dni-person.original": "0924209513"
+          },
+          "cedula.original": "0924209513",
+          "phone-number": "0939932264",
+          "phone-number.original": "0939932264",
+          "geo-city": "Milagro",
+          "geo-city.original": "Milagro",
+          "address": "Diezcanseco y Jaime Silva Sesme",
+          "address.original": "Diezcanseco y Jaime Silva Sesme",
+          "email": "cmedinaa@gmail.com",
+          "email.original": "cmedinaa@gmail.com"
+        }
+      },
+      {
+        "name": "projects/chaterbot-9wsr/agent/sessions/26b14664-3004-338b-a03d-f21285ffe8ff/contexts/setinfocliente",
+        "lifespanCount": 4,
+        "parameters": {
+          "nombres-apellidos": {
+            "nombres": {
+              "given-name": "Carlos",
+              "given-name.original": "Carlos",
+              "nombre": {
+                "given-name": "Josue",
+                "given-name.original": "Josue"
+              },
+              "nombre.original": "Josue"
+            },
+            "nombres.original": "Carlos Josue",
+            "apellidos": {
+              "last-name": "Medina",
+              "last-name.original": "Medina",
+              "apellido": {
+                "last-name": "Alvarado",
+                "last-name.original": "Alvarado"
+              },
+              "apellido.original": "Alvarado"
+            },
+            "apellidos.original": "Medina Alvarado"
+          },
+          "nombres-apellidos.original": "Carlos Josue Medina Alvarado",
+          "cedula": {
+            "dni-person": "0924209513",
+            "dni-person.original": "0924209513"
+          },
+          "cedula.original": "0924209513",
+          "email": "cmedinaa@gmail.com",
+          "email.original": "cmedinaa@gmail.com",
+          "phone-number": "0939932264",
+          "phone-number.original": "0939932264",
+          "geo-city": "Milagro",
+          "geo-city.original": "Milagro",
+          "address": "Diezcanseco y Jaime Silva Sesme",
+          "address.original": "Diezcanseco y Jaime Silva Sesme"
+        }
+      },
+      {
+        "name": "projects/chaterbot-9wsr/agent/sessions/26b14664-3004-338b-a03d-f21285ffe8ff/contexts/__system_counters__",
+        "parameters": {
+          "no-input": 0,
+          "no-match": 0
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/chaterbot-9wsr/agent/intents/e33ce659-3e43-4f6d-9b76-8690269c7287",
+      "displayName": "confirmarPedido"
+    },
+    "intentDetectionConfidence": 1,
+    "languageCode": "es"
+  },
+  "originalDetectIntentRequest": {
+    "source": "DIALOGFLOW_CONSOLE",
+    "payload": {}
+  },
+  "session": "projects/chaterbot-9wsr/agent/sessions/26b14664-3004-338b-a03d-f21285ffe8ff"
+}

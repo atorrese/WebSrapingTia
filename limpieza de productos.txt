@@ -1,0 +1,1082 @@
+    const browser = await puppeteer.launch({ headless: false, args: ['--start-maximized'] });
+    const page = await browser.newPage();
+    
+    await page.setDefaultNavigationTimeout(0);
+    await page.setViewport({ width: 1296, height: 800 });
+    //await page.goto('https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?s=0&pp=100&cat=205&ot=0#');
+
+    await page.waitForSelector('[id="container-result"]');
+
+    const categorias = await page.evaluate(()=>{
+        const elements = document.querySelectorAll('li.dd');
+        const categories =[];
+        for (let [index,element] of elements.entries()){
+            const tmp = {};
+            if(index!=1 || index !=9){
+                tmp.name = element.firstElementChild.innerText;
+                tmp.url  = element.firstChild.href;
+                tmp.subcategory =[];
+                const hijos=element.lastElementChild.firstElementChild.firstElementChild.firstElementChild.querySelectorAll('li');
+
+                
+
+
+
+                for(let [i,elem] of hijos.entries()){
+                    console.log(elem);
+                     if(elem.classList.contains( 'nav-header' )){
+                        const  sub ={};
+                        sub.name = elem.firstElementChild.innerText;
+                        sub.url = elem.firstElementChild.href;
+                        sub.subgroup =[];
+                        tmp.subcategory.push(sub); 
+                    }else{
+                        const  subgroup ={};
+                        subgroup.name = elem.firstElementChild.innerText;
+                        subgroup.url = elem.firstElementChild.href;
+                        
+                        if (tmp.subcategory.length == 0){
+                            tmp.subcategory[0].subgroup.push(subgroup);
+                        }else{
+                            tmp.subcategory[tmp.subcategory.length -1].subgroup.push(subgroup);
+                        }
+                    }
+                }
+            }
+            categories.push(tmp);
+        }
+        return categories;
+    });
+[
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=202&s=0&pp=25",
+        "countresult": "181 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=204&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=211&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=223&s=0&pp=25",
+        "countresult": "209 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=1095&s=0&pp=25",
+        "countresult": "8 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=238&s=0&pp=25",
+        "countresult": "186 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=254&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=259&s=0&pp=25",
+        "countresult": "233 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=272&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=278&s=0&pp=25",
+        "countresult": "47 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=282&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=287&s=0&pp=25",
+        "countresult": "74 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=293&s=0&pp=25",
+        "countresult": "361 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=325&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=325&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=352&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=356&s=0&pp=25",
+        "countresult": "1054 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=435&s=0&pp=25",
+        "countresult": "69 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=446&s=0&pp=25",
+        "countresult": "567 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=627&s=0&pp=25",
+        "countresult": "105 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=489&s=0&pp=25",
+        "countresult": "842 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=537&s=0&pp=25",
+        "countresult": "773 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=1091&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=906&s=0&pp=25",
+        "countresult": "38 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=1056&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=558&s=0&pp=25",
+        "countresult": "9 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=562&s=0&pp=25",
+        "countresult": "26 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=568&s=0&pp=25",
+        "countresult": "285 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=585&s=0&pp=25",
+        "countresult": "222 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=601&s=0&pp=25",
+        "countresult": "121 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=610&s=0&pp=25",
+        "countresult": "74 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=620&s=0&pp=25",
+        "countresult": "43 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=632&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=636&s=0&pp=25",
+        "countresult": "9 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=649&s=0&pp=25",
+        "countresult": "28 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=651&s=0&pp=25",
+        "countresult": "22 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=676&s=0&pp=25",
+        "countresult": "298 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=695&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=701&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=767&s=0&pp=25",
+        "countresult": "101 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=639&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=654&s=0&pp=25",
+        "countresult": "863 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=736&s=0&pp=25",
+        "countresult": "40 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=789&s=0&pp=25",
+        "countresult": "15 "
+    }
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=804&s=0&pp=25",
+        "countresult": "1 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=818&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=822&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=823&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=824&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=847&s=0&pp=25",
+        "countresult": "37 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=848&s=0&pp=25",
+        "countresult": "22 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=850&s=0&pp=25",
+        "countresult": "18 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=849&s=0&pp=25",
+        "countresult": "1 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=851&s=0&pp=25",
+        "countresult": "84 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=852&s=0&pp=25",
+        "countresult": "99 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=853&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=854&s=0&pp=25",
+        "countresult": "0 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=855&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=999&s=0&pp=25",
+        "countresult": "6 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=890&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=891&s=0&pp=25",
+        "countresult": "36 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=892&s=0&pp=25",
+        "countresult": "12 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=904&s=0&pp=25",
+        "countresult": "3 "
+    },
+    {
+        "name": " Más\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=905&s=0&pp=25",
+        "countresult": ""
+    }]
+
+[
+    {
+        "name": "Mk",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=12&q=&s=0&pp=25&b=1673",
+        "countresult": ""
+    },
+    {
+        "name": "La santé",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=12&q=&s=0&pp=25&b=1717",
+        "countresult": ""
+    },
+    {
+        "name": "Sin marca",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=12&q=&s=0&pp=25&b=1",
+        "countresult": "22 "
+    },
+    {
+        "name": "Genfar",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=12&q=&s=0&pp=25&b=398",
+        "countresult": ""
+    },
+    {
+        "name": "Nifa",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=12&q=&s=0&pp=25&b=277",
+        "countresult": "48 "
+    },
+    {
+        "name": "Sin marca",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=237&q=&s=0&pp=25&b=1",
+        "countresult": ""
+    },
+    {
+        "name": "Blunding",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=237&q=&s=0&pp=25&b=1401",
+        "countresult": "41 "
+    },
+    {
+        "name": "Diafoot",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=237&q=&s=0&pp=25&b=3355",
+        "countresult": "20 "
+    },
+    {
+        "name": "S/m",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=237&q=&s=0&pp=25&b=4505",
+        "countresult": "4 "
+    },
+    {
+        "name": "Do it",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=237&q=&s=0&pp=25&b=5532",
+        "countresult": ""
+    },
+    {
+        "name": "Toni",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=653&q=&s=0&pp=25&b=350",
+        "countresult": "35 "
+    },
+    {
+        "name": "Nature´s heart",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=653&q=&s=0&pp=25&b=269",
+        "countresult": "28 "
+    },
+    {
+        "name": "Pinguino",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=653&q=&s=0&pp=25&b=169",
+        "countresult": "38 "
+    },
+    {
+        "name": "Trident",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=653&q=&s=0&pp=25&b=1083",
+        "countresult": "8 "
+    },
+    {
+        "name": "Sin marca",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=653&q=&s=0&pp=25&b=1",
+        "countresult": ""
+    },
+    {
+        "name": "Colgate",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=567&q=&s=0&pp=25&b=1112",
+        "countresult": "83 "
+    },
+    {
+        "name": "Essence",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=445&q=&s=0&pp=25&b=3368",
+        "countresult": "209 "
+    },
+    {
+        "name": "Catrice",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=445&q=&s=0&pp=25&b=10415",
+        "countresult": ""
+    },
+    {
+        "name": "Samy",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=445&q=&s=0&pp=25&b=3183",
+        "countresult": "16 "
+    },
+    {
+        "name": "Vogue",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=445&q=&s=0&pp=25&b=20",
+        "countresult": "0 "
+    },
+    {
+        "name": "Navajas",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=747&s=0&pp=25",
+        "countresult": "0 "
+    },
+    {
+        "name": "Gafas",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=775&s=0&pp=25",
+        "countresult": "0 "
+    },
+    {
+        "name": "Billeteras",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=790&s=0&pp=25",
+        "countresult": "0 "
+    },
+    {
+        "name": "Nivea",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=567&q=&s=0&pp=25&b=2925",
+        "countresult": "73 "
+    },
+    {
+        "name": "Gillette",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=567&q=&s=0&pp=25&b=43",
+        "countresult": "59 "
+    },
+    {
+        "name": "Licencias",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=856&s=0&pp=25",
+        "countresult": "0 "
+    },
+    {
+        "name": "Genéricos",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=857&s=0&pp=25",
+        "countresult": "0 "
+    },
+    {
+        "name": "Adultos",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=862&s=0&pp=25",
+        "countresult": "0 "
+    },
+    {
+        "name": "Joyería",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=863&s=0&pp=25",
+        "countresult": "0 "
+    },
+    {
+        "name": "Burbujas",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=886&s=0&pp=25",
+        "countresult": "0 "
+    },
+    {
+        "name": "Burbujas",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=886&s=0&pp=25",
+        "countresult": "0 "
+    },
+    {
+        "name": "Oral b",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=567&q=&s=0&pp=25&b=1126",
+        "countresult": "43 "
+    },
+    {
+        "name": "Rexona",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=567&q=&s=0&pp=25&b=205",
+        "countresult": "51 "
+    },
+    {
+        "name": "S/m",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=694&q=&s=0&pp=25&b=4505",
+        "countresult": "6 "
+    },
+    {
+        "name": "Sin marca",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=694&q=&s=0&pp=25&b=1",
+        "countresult": "310 "
+    },
+    {
+        "name": "Funky fish",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=694&q=&s=0&pp=25&b=1506",
+        "countresult": ""
+    },
+    {
+        "name": "Totto",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=694&q=&s=0&pp=25&b=1501",
+        "countresult": "81 "
+    },
+    {
+        "name": "Santini christmas",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=694&q=&s=0&pp=25&b=5118",
+        "countresult": ""
+    },
+    {
+        "name": "Fisher-price",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=355&q=&s=0&pp=25&b=1107",
+        "countresult": "31 "
+    },
+    {
+        "name": "Cutie baby",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=355&q=&s=0&pp=25&b=4634",
+        "countresult": ""
+    },
+    {
+        "name": "Quiltex",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=355&q=&s=0&pp=25&b=3438",
+        "countresult": "0 "
+    },
+    {
+        "name": "Playskool",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=355&q=&s=0&pp=25&b=1115",
+        "countresult": "1 "
+    },
+    {
+        "name": "Huggies",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=355&q=&s=0&pp=25&b=521",
+        "countresult": "47 "
+    },
+    {
+        "name": "Glade",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=889&q=&s=0&pp=25&b=4655",
+        "countresult": ""
+    },
+    {
+        "name": "S/m",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=889&q=&s=0&pp=25&b=4505",
+        "countresult": "1 "
+    },
+    {
+        "name": "Energizer",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=889&q=&s=0&pp=25&b=1967",
+        "countresult": "30 "
+    },
+    {
+        "name": "St. crawford",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=889&q=&s=0&pp=25&b=1481",
+        "countresult": ""
+    },
+    {
+        "name": "Tips",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=889&q=&s=0&pp=25&b=1450",
+        "countresult": "9 "
+    },
+    {
+        "name": "Hasbro",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=846&q=&s=0&pp=25&b=992",
+        "countresult": "108 "
+    },
+    {
+        "name": "Mattel",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=846&q=&s=0&pp=25&b=994",
+        "countresult": "40 "
+    },
+    {
+        "name": "Phk",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=846&q=&s=0&pp=25&b=1553",
+        "countresult": ""
+    },
+    {
+        "name": "Sandy lion",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=846&q=&s=0&pp=25&b=4858",
+        "countresult": ""
+    },
+    {
+        "name": "Norma",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=846&q=&s=0&pp=25&b=1218",
+        "countresult": ""
+    }]
+[
+    {
+        "name": "Calores",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=284&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": "Cremas",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=290&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": "Bodys",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=563&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": "Esponjas",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=907&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": "Linternas",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=900&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": "Set de herramientas",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=888&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": "Camping",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=879&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": "Camping",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=879&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": "Camping",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=876&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": "Libros",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=866&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": "Accesorios de cabello",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=809&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": "Billeteras y monederos",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=807&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": "Bolsos y carteras",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=806&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": "Diarios",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=795&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": "Cuadros infantiles",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=791&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": "Oficina",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=742&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": "Ceniceros",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=702&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": "Varios tamaños",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=699&s=0&pp=25",
+        "countresult": "0 "
+    },
+    {
+        "name": "8x10",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=698&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": "Niños",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=638&s=0&pp=25",
+        "countresult": ""
+    },
+    {
+        "name": "Maybelline",
+        "url": "https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=445&q=&s=0&pp=25&b=185",
+        "countresult": ""
+    }]
+
+
+
+  {
+    name: 'ACCION 24, 122 GR',
+    prices: { unit: 0, presentation: 2.24, vitalcard: 2.24 },
+    unit: 'LINIMENTO',
+    presentation: 'FRASCO',
+    group: {
+      name: 'Linimentos, parches y ungüentos',
+      url: 'https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=207&s=0&pp=25',
+      countresult: 45,
+      pageUrls: [Array]
+    }
+  },
+  {
+    name: 'PANALGESIC GEL T/60 GR.',
+    prices: { unit: 0, presentation: 1.28, vitalcard: 1.28 },
+    unit: 'GEL',
+    presentation: 'TARRO',
+    group: {
+      name: 'Linimentos, parches y ungüentos',
+      url: 'https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=207&s=0&pp=25',
+      countresult: 45,
+      pageUrls: [Array]
+    }
+  },
+  {
+    name: 'DISFLAM GEL T/30 GR.',
+    prices: { unit: 0, presentation: 5.97, vitalcard: 5.97 },
+    unit: 'GEL',
+    presentation: 'CAJA',
+    group: {
+      name: 'Linimentos, parches y ungüentos',
+      url: 'https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=207&s=0&pp=25',
+      countresult: 45,
+      pageUrls: [Array]
+    }
+  },
+  {
+    name: 'RUBEXAL CREMA TUBO 30 GR. ',
+    prices: { unit: 0, presentation: 3.08, vitalcard: 3.08 },
+    unit: 'CREMA',
+    presentation: 'TUBO',
+    group: {
+      name: 'Linimentos, parches y ungüentos',
+      url: 'https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=207&s=0&pp=25',
+      countresult: 45,
+      pageUrls: [Array]
+    }
+  },
+  {
+    name: 'DICLOFENAC MK OTC GEL T/50 GR.',
+    prices: { unit: 0, presentation: 6.15, vitalcard: 6.15 },
+    unit: 'GEL',
+    presentation: 'CAJA',
+    group: {
+      name: 'Linimentos, parches y ungüentos',
+      url: 'https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=207&s=0&pp=25',
+      countresult: 45,
+      pageUrls: [Array]
+    }
+  },
+  {
+    name: 'PIROXICAN MK OTC GEL 0.5% T/40 GR.',
+    prices: { unit: 0, presentation: 2.56, vitalcard: 2.56 },
+    unit: 'GEL',
+    presentation: 'TUBO',
+    group: {
+      name: 'Linimentos, parches y ungüentos',
+      url: 'https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=207&s=0&pp=25',
+      countresult: 45,
+      pageUrls: [Array]
+    }
+  },
+  {
+    name: 'SPORT CREAM ARTRIFORTE 30 GR.',
+    prices: { unit: 0, presentation: 2.85, vitalcard: 2.85 },
+    unit: 'GEL',
+    presentation: 'TUBO',
+    group: {
+      name: 'Linimentos, parches y ungüentos',
+      url: 'https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=207&s=0&pp=25',
+      countresult: 45,
+      pageUrls: [Array]
+    }
+  },
+  {
+    name: 'SPORT CREAM DEPORTISTA 30 GR.',
+    prices: { unit: 0, presentation: 2.7, vitalcard: 2.7 },
+    unit: 'CREMA',
+    presentation: 'TUBO',
+    group: {
+      name: 'Linimentos, parches y ungüentos',
+      url: 'https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=207&s=0&pp=25',
+      countresult: 45,
+      pageUrls: [Array]
+    }
+  },
+  {
+    name: 'BERIFEN OTC GEL T/20 GR.',
+    prices: { unit: 0, presentation: 3.7, vitalcard: 3.7 },
+    unit: 'GEL',
+    presentation: 'TUBO',
+    group: {
+      name: 'Linimentos, parches y ungüentos',
+      url: 'https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=207&s=0&pp=25',
+      countresult: 45,
+      pageUrls: [Array]
+    }
+  },
+  {
+    name: 'VOLTAREN OTC EMULGEL T/30 GR.',
+    prices: { unit: 0, presentation: 5.18, vitalcard: 5.18 },
+    unit: 'GEL',
+    presentation: 'TUBO',
+    group: {
+      name: 'Linimentos, parches y ungüentos',
+      url: 'https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=207&s=0&pp=25',
+      countresult: 45,
+      pageUrls: [Array]
+    }
+  },
+  {
+    name: 'TURBOGESIC - ANTI-INFLAMATORIO ANALGÉSICO - 40 GR',
+    prices: { unit: 0, presentation: 3.61, vitalcard: 3.61 },
+    unit: 'CREMA',
+    presentation: 'TUBO',
+    group: {
+      name: 'Linimentos, parches y ungüentos',
+      url: 'https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=207&s=0&pp=25',
+      countresult: 45,
+      pageUrls: [Array]
+    }
+  },
+  {
+    name: 'YODOSALIL',
+    prices: { unit: 0, presentation: 1.04, vitalcard: 1.04 },
+    unit: 'UNGüENTO',
+    presentation: 'LATA',
+    group: {
+      name: 'Linimentos, parches y ungüentos',
+      url: 'https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=207&s=0&pp=25',
+      countresult: 45,
+      pageUrls: [Array]
+    }
+  },
+  {
+    name: 'LINIMENTO OLIMPICO F/115 ML.',
+    prices: { unit: 0, presentation: 2.4, vitalcard: 2.4 },
+    unit: 'LINIMENTO',
+    presentation: 'FRASCO',
+    group: {
+      name: 'Linimentos, parches y ungüentos',
+      url: 'https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=207&s=0&pp=25',
+      countresult: 45,
+      pageUrls: [Array]
+    }
+  },
+  {
+    name: 'PANALGESIC GEL T/180 GR.',
+    prices: { unit: 0, presentation: 3.16, vitalcard: 3.16 },
+    unit: 'GEL',
+    presentation: 'FRASCO',
+    group: {
+      name: 'Linimentos, parches y ungüentos',
+      url: 'https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=207&s=0&pp=25',
+      countresult: 45,
+      pageUrls: [Array]
+    }
+  },
+  {
+    name: 'ICY HOT POMADA ANALGÉSICA 100 GR',
+    prices: { unit: 0, presentation: 7.02, vitalcard: 7.02 },
+    unit: 'UNGüENTO',
+    presentation: 'FRASCO',
+    group: {
+      name: 'Linimentos, parches y ungüentos',
+      url: 'https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=207&s=0&pp=25',
+      countresult: 45,
+      pageUrls: [Array]
+    }
+  },
+  {
+    name: 'ICY HOT 35 GR.',
+    prices: { unit: 0, presentation: 4.22, vitalcard: 4.22 },
+    unit: 'CREMA',
+    presentation: 'CAJA',
+    group: {
+      name: 'Linimentos, parches y ungüentos',
+      url: 'https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=207&s=0&pp=25',
+      countresult: 45,
+      pageUrls: [Array]
+    }
+  },
+  {
+    name: 'BERIFEN - DICLOFENACO SÓDICO - 50 GR',
+    prices: { unit: 0, presentation: 7.96, vitalcard: 7.96 },
+    unit: 'GEL',
+    presentation: 'TUBO',
+    group: {
+      name: 'Linimentos, parches y ungüentos',
+      url: 'https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=207&s=0&pp=25',
+      countresult: 45,
+      pageUrls: [Array]
+    }
+  },
+  {
+    name: 'RELMEX OTC GEL T/30 GR. ',
+    prices: { unit: 0, presentation: 7.12, vitalcard: 7.12 },
+    unit: 'GEL',
+    presentation: 'TUBO',
+    group: {
+      name: 'Linimentos, parches y ungüentos',
+      url: 'https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=207&s=0&pp=25',
+      countresult: 45,
+      pageUrls: [Array]
+    }
+  },
+  {
+    name: 'KEFENTECH-L ',
+    prices: { unit: 0, presentation: 4.68, vitalcard: 4.68 },
+    unit: 'PARCHES',
+    presentation: 'UNIDAD',
+    group: {
+      name: 'Linimentos, parches y ungüentos',
+      url: 'https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=207&s=0&pp=25',
+      countresult: 45,
+      pageUrls: [Array]
+    }
+  },
+  {
+    name: 'PANALGESIC FORTE CREMA 32 GR',
+    prices: { unit: 0, presentation: 2.22, vitalcard: 2.22 },
+    unit: 'CREMA',
+    presentation: 'TUBO',
+    group: {
+      name: 'Linimentos, parches y ungüentos',
+      url: 'https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=207&s=0&pp=25',
+      countresult: 45,
+      pageUrls: [Array]
+    }
+  },
+  {
+    name: 'CLORURO DE ETILO 88 GR',
+    prices: { unit: 0, presentation: 15.02, vitalcard: 15.02 },
+    unit: 'AEROSOL/SPRAY',
+    presentation: 'FRASCO',
+    group: {
+      name: 'Linimentos, parches y ungüentos',
+      url: 'https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=207&s=0&pp=25',
+      countresult: 45,
+      pageUrls: [Array]
+    }
+  },
+  {
+    name: 'BIOSAVIA 75 GR ',
+    prices: { unit: 0, presentation: 7.92, vitalcard: 7.92 },
+    unit: 'GEL',
+    presentation: 'TUBO',
+    group: {
+      name: 'Linimentos, parches y ungüentos',
+      url: 'https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=207&s=0&pp=25',
+      countresult: 45,
+      pageUrls: [Array]
+    }
+  },
+  {
+    name: 'APRONAX GEL 40 GR.',
+    prices: { unit: 0, presentation: 7.16, vitalcard: 7.16 },
+    unit: 'GEL',
+    presentation: 'CAJA',
+    group: {
+      name: 'Linimentos, parches y ungüentos',
+      url: 'https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=207&s=0&pp=25',
+      countresult: 45,
+      pageUrls: [Array]
+    }
+  },
+  {
+    name: 'GEL ANALGESICO NONI - ANTIINFLAMATORIO NATURES GARDEN 120 G.',
+    prices: { unit: 0, presentation: 6.3, vitalcard: 6.3 },
+    unit: 'GEL',
+    presentation: 'FRASCO',
+    group: {
+      name: 'Linimentos, parches y ungüentos',
+      url: 'https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=207&s=0&pp=25',
+      countresult: 45,
+      pageUrls: [Array]
+    }
+  },
+  {
+    name: 'ARNEX GEL 3% TUBO 30 ML',
+    prices: { unit: 0, presentation: 21.5, vitalcard: 21.5 },
+    unit: 'GEL',
+    presentation: 'TUBO',
+    group: {
+      name: 'Linimentos, parches y ungüentos',
+      url: 'https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=207&s=0&pp=25',
+      countresult: 45,
+      pageUrls: [Array]
+    }
+  },
+  {
+    name: 'GEL GARDEN FORTE NATURES GARDEN 140GR',
+    prices: { unit: 0, presentation: 8.89, vitalcard: 8.89 },
+    unit: 'GEL',
+    presentation: 'FRASCO',
+    group: {
+      name: 'Linimentos, parches y ungüentos',
+      url: 'https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=207&s=0&pp=25',
+      countresult: 45,
+      pageUrls: [Array]
+    }
+  },
+  {
+    name: 'VOLTAREN OTC EMULGEL FORTE TUBO 100GR',
+    prices: { unit: 0, presentation: 18.37, vitalcard: 18.37 },
+    unit: 'GEL',
+    presentation: 'TUBO',
+    group: {
+      name: 'Linimentos, parches y ungüentos',
+      url: 'https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=207&s=0&pp=25',
+      countresult: 45,
+      pageUrls: [Array]
+    }
+  },
+  {
+    name: ' RESCUE GEL Y ARNICA NATURA Y BENESSERE GEL CON EFECTO ANTIFLAMATORIO ROLL ON 60ML ',
+    prices: { unit: 0, presentation: 11.82, vitalcard: 11.82 },
+    unit: null,
+    presentation: 'UNIDAD',
+    group: {
+      name: 'Linimentos, parches y ungüentos',
+      url: 'https://www.fybeca.com/FybecaWeb/pages/search-results.jsf?cat=207&s=0&pp=25',
+      countresult: 45,
+      pageUrls: [Array]
+    }
+  }
+

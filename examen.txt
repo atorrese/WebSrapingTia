@@ -1,0 +1,66 @@
+        function agregarExamen(examen) {
+            examenes = extraerExamenes()
+            if(!existeExamen(examen.examen)){
+                examenes.push(examen);
+            }
+            localStorage.setItem('examenes',JSON.stringify(examenes));
+        }
+        function eliminarExamen(examen) {
+            examenes = extraerExamenes();
+            lista= []
+            i = 0
+            for (let ex  of examenes  ){
+                if (ex.examen != examen.examen){
+                    lista.push(ex);
+                }
+            }
+            localStorage.removeItem('examenes');
+            localStorage.setItem('examenes',JSON.stringify(lista));
+        }
+        function eliminarExamenes() {
+            localStorage.removeItem('examenes');
+        }
+        function marcarExamenes() {
+            examenes = extraerExamenes();
+            if(examenes){
+                for (let ex of examenes  ){
+                    v = `#check_${ex.examen}`;
+                    $(v).prop("checked", true);
+                }
+            }else{
+                $("input[name='estudios']").prop("checked", false);
+            }
+        }
+
+
+
+
+<tr>
+<td></td> \n
+<td>${data.examen.categoria.descripcion}-(${data.examen.tipo.alias})
+</td><td>\n                                      <select class="form-control">
+${for (let elemento) of data.examen.laboratoristas{}
+                            <option></option>
+                                ${ }}\n                                       </select>\n                                   </td>\n                                   <td class="td-precio">$ ${data.examen.precio}</td>\n                                   <td class="td-iva">$ ${data.examen.iva}</td>\n                                   <td>$ ${parseFloat(data.examen.iva) + parseFloat(data.examen.precio)}</td>\n                                </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+setting.py
+
+LOGIN_URL = '/login/'
+
+LOGIN_REDIRECT_URL = '/'
+
+LOGOUT_REDIRECT_URL = '/login/'
+
+views.py
+from django.contrib.auth import  views as auth_views
+from django.contrib.auth.mixins import LoginRequiredMixin
+
+class LoginView(auth_views.LoginView):
+    template_name = 'auth/login.html'
+    redirect_authenticated_user = True
+
+class LogoutView(LoginRequiredMixin,auth_views.LogoutView):
+    pass
+
+class HomeView(LoginRequiredMixin,TemplateView):
+    template_name = 'auth/home.html'
+urls.py
+from django.urls import path
+path(route='login/', view=security.LoginView.as_view(), name='login'),
+
+urlsgeneral
+from django.urls import path
+from django.conf.urls import  url, include
+
+path('', include(('aplicaciones.seguridad.urls', 'aplicaciones.seguridad'), namespace='security')),

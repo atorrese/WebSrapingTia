@@ -1,0 +1,147 @@
+    <!-- Modal -->
+    <div class="modal fade" id="modal-grupo" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="grupoLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-grupoLabel">Listado de Examen</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <nav>
+                        <div class="nav nav-tabs ui-tabs ui-widget ui-widget-content ui-corner-all ui-hidden-container ui-tabs-top tabs-main" id="nav-grupo" role="tablist">
+                            {% for grupo in grupos %}
+                                {% if forloop.counter  == 1%}
+                                    <a class="nav-item nav-link active" id="nav-{{ grupo.pk }}-tab" data-toggle="tab" href="#nav-{{ grupo.pk }}" role="tab" aria-controls="nav-{{ grupo.pk }}" aria-selected="true">{{ grupo }}</a>
+                                {% else %}
+                                    <a class="nav-item nav-link" id="nav-{{ grupo.pk }}-tab" data-toggle="tab" href="#nav-{{ grupo.pk }}" role="tab" aria-controls="nav-{{ grupo.pk }}" aria-selected="false">{{ grupo }}</a>
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+                    </nav>
+
+                    <div class="tab-content ui-tabs-panel ui-widget-content ui-corner-bottom" id="nav-tabContenido">
+                        {% for grupo in grupos %}
+                            {% if forloop.counter  == 1%}
+                                <div class="tab-pane fade show active mb-3" id="nav-{{ grupo.pk }}" role="tabpanel" aria-labelledby="nav-{{ grupo.pk }}">
+                                    <div class="container">
+                                        <div class="row">
+                                            {% for subgrupo in grupo.subgrupoexamen_set.all%}
+                                                <div class="col-md-4">
+                                                    <div class="category">
+                                                        <h3 class="category-heading">{{ subgrupo }}</h3>
+                                                        <div class="row row-margins">
+                                                            <div class="col-md-12">
+                                                                {% for categoria in subgrupo.categoriaexamen_set.all %}
+                                                                    <div class="row">
+                                                                        <div class="checkbox">
+                                                                            {% if categoria.examen_set.count > 1 %}
+                                                                                <div class="row row-margins">
+                                                                                    <div class="col-md-6">
+                                                                                        <div>
+                                                                                            <label class="label-checkbox">{{ categoria }}</label>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    {% for examen in categoria.examen_set.all %}
+                                                                                        <div class="col-md-2">
+                                                                                            <div class="checkbox">
+                                                                                                <label class="label-checkbox">
+                                                                                                    <input name="estudios" class="AFG" type="checkbox"
+                                                                                                           value="{{ examen.categoria }}({{ examen.tipo.alias }})"
+                                                                                                           id="check_{{ examen.id }}"
+                                                                                                           data-json='{"examen":{{ examen.pk }}}'>
+                                                                                                    {{ examen.tipo.alias }}
+                                                                                                    <span class="span-valor-estudio" id="span_{{ examen.pk }}"></span>
+                                                                                                </label>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    {% endfor %}
+                                                                                </div>
+                                                                            {% else %}
+                                                                                <label class="label-checkbox">
+                                                                                    <input name="estudios" class="HEM" type="checkbox"
+                                                                                           id="check_{{ categoria.examen_set.first.pk }}"
+                                                                                           data-json='{"examen":{{ categoria.examen_set.first.pk }}}'>
+                                                                                    {{ categoria }}
+                                                                                    <span class="span-valor-estudio" id="span_{{ categoria.examen_set.first.pk }}"></span>
+                                                                                </label>
+                                                                            {% endif %}
+                                                                        </div>
+                                                                    </div>
+                                                                {% endfor %}
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+                                </div>
+                            {% else %}
+                                <div class="tab-pane fade" id="nav-{{ grupo.pk }}" role="tabpanel" aria-labelledby="nav-{{ grupo.pk }}">
+                                    <div class="container">
+                                        <div class="row">
+                                            {% for subgrupo in grupo.subgrupoexamen_set.all%}
+                                                <div class="col-md-4">
+                                                    <div class="category">
+                                                        <h3 class="category-heading">{{ subgrupo }}</h3>
+                                                        <div class="row row-margins">
+                                                            <div class="col-md-12">
+                                                                {% for categoria in subgrupo.categoriaexamen_set.all %}
+                                                                    <div class="row">
+                                                                        <div class="checkbox">
+                                                                            {% if categoria.examen_set.count > 1 %}
+                                                                                <div class="row row-margins">
+                                                                                    <div class="col-md-6">
+                                                                                        <div>
+                                                                                            <label class="label-checkbox">{{ categoria }}</label>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    {% for examen in categoria.examen_set.all %}
+                                                                                        <div class="col-md-2">
+                                                                                            <div class="checkbox">
+                                                                                                <label class="label-checkbox">
+                                                                                                    <input name="estudios" class="AFG" type="checkbox"
+                                                                                                           id="check_{{ examen.id }}"
+                                                                                                           data-json='{"examen":{{ examen.pk }}}'>
+                                                                                                    {{ examen.tipo.alias }}
+                                                                                                    <span class="span-valor-estudio" id="span_{{ examen.id }}"></span>
+                                                                                                </label>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    {% endfor %}
+                                                                                </div>
+                                                                            {% else %}
+                                                                                <label class="label-checkbox">
+                                                                                    <input name="estudios" class="HEM" type="checkbox"
+                                                                                           id="check_{{ categoria.examen_set.first.pk }}"
+                                                                                           data-json='{"examen":{{ categoria.examen_set.first.pk }}}'>
+                                                                                    {{ categoria }}
+                                                                                    <span class="span-valor-estudio" id="span_{{ categoria.examen_set.first.pk }}"></span>
+                                                                                </label>
+                                                                            {% endif %}
+                                                                        </div>
+                                                                    </div>
+                                                                {% endfor %}
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" id="modal-cancelar" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                    <button type="button" id="modal-guardar" class="btn btn-success">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
